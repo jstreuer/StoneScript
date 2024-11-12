@@ -6,8 +6,8 @@ var hatColor = #665588
 
 var spaceGandalf
 spaceGandalf = ascii
-#λ
-⎺#¯
+#λ_
+¯
 asciiend
 
 >h-1,0,@hatColor@,@spaceGandalf@
