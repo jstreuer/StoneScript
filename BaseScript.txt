@@ -16,6 +16,6 @@ loadout 1
     activate R
 
   ?item.GetCooldown("bardiche") <= 0
-  ^&foe.distance <= 5
+  ^&foe.distance <= 6
     equip bardiche
     activate R
