@@ -1,0 +1,19 @@
+?foe.count = 0
+  ?hp < 40
+    equip ouroboros
+
+?foe.count ! 0
+^&foe.distance <= 20
+  ?item.GetCooldown("blade") <= 0
+  ^&foe.count >= 7
+    equip blade
+    activate R
+
+  ?item.GetCooldown("mask") <= 0
+    equip mask
+    activate R
+
+  ?item.GetCooldown("bardiche") <= 0
+  ^&foe.distance <= 5
+    equip bardiche
+    activate R
