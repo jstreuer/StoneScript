@@ -2,7 +2,7 @@ var DIS_MELEE = 5
 
 loadout 1
 
-?foe count = 0
+?foe.count = 0
 ^|foe.distance > 23
   equipR star_stone
   equipL triskelion
