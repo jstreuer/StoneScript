@@ -5,7 +5,9 @@ loadout 1
 ?foe.count = 0
   ?hp < 40
     equip ouroboros
-
+  ?foe.distance > 23
+    equipR star_stone
+    equipL triskelion
 ?foe.count ! 0
 ^&foe.distance <= 20
   ?item.GetCooldown("blade") <= 0
