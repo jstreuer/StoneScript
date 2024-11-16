@@ -1,9 +1,9 @@
-import Constants
+const = import Constants
 
 loadout 1
 
 ?foe.count = 0
-^|foe.distance > DIS_FOE
+^|foe.distance > const.DIS_FOE
   > 0,0,Hurry up!
   equipR star_stone
   equipL triskelion
@@ -20,6 +20,6 @@ loadout 1
     activate R
 
   ?item.GetCooldown("bardiche") <= 0
-  ^&foe.distance <= DIS_MELEE
+  ^&foe.distance <= const.DIS_MELEE
     equip bardiche
     activate R
