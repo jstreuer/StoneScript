@@ -1,2 +1,0 @@
-var DIS_MELEE = 5
-var DIS_FOE = 22
