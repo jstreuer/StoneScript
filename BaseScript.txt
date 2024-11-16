@@ -4,6 +4,7 @@ loadout 1
 
 ?foe.count = 0
 ^|foe.distance > 23
+  > 0,0,Hurry up!
   equipR star_stone
   equipL triskelion
 
