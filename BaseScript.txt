@@ -33,7 +33,7 @@ loadout 1
   ^&foe = "Bronze Guardian"
     equip Vulcan
     ?foe.state = 2
-    ^&foe.time = 1
+    ^&foe.time = 5
       activate Potion
     ?foe.state = 32
     ^&foe.time = 30
