@@ -29,7 +29,7 @@ loadout 1
     equip bardiche
     activate R
 
-  ?loc = mine
+  ?loc = bronze_guardian
   ^&foe = boss
     equip Vulcan
     ?foe.time = 1
