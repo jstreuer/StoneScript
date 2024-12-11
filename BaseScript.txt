@@ -32,7 +32,8 @@ loadout 1
   ?loc = bronze_guardian
   ^&foe = "Bronze Guardian"
     equip Vulcan
-    activate Potion
+    ?foe.time = 10
+      activate Potion
     ?foe.state = 32
     ^&foe.time = 30
       equipR Mind Stone
