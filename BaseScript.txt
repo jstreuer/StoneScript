@@ -9,7 +9,7 @@ loadout 1
 
 ?foe.count = 0
 ^|foe.distance > DIS_FOE
-  >`h,0,Hurry up!
+  >h0,-2,#yellow,Hurry up!
   equipR star_stone
   equipL triskelion
 
@@ -32,9 +32,7 @@ loadout 1
   ?loc = bronze_guardian
   ^&foe = "Bronze Guardian"
     equip Vulcan
-    >`0,0,@foe.time@
-    >`0,1,@foe.state@
-    ?foe.time > 100
+    ?foe.state = 2
       activate Potion
     ?foe.state = 32
     ^&foe.time = 30
