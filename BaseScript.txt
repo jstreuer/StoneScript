@@ -30,10 +30,11 @@ loadout 1
     activate R
 
   ?loc = bronze_guardian
-  ^&foe = boss
+  ^&foe = "Bronze Guardian"
     equip Vulcan
     ?foe.time = 1
       activate Potion
-    ?foe.time = 950
-      equip mind
+    ?foe.state = 32
+    ^&foe.time = 35
+      equip Mind Stone
 
